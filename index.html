@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲傷害計算</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>遊戲傷害計算器</h1>
+    <label>攻擊力：</label>
+    <input type="number" id="attack" value="100">
+    
+    <label>技能倍率：</label>
+    <input type="number" id="multiplier" value="1.5">
 
+    <label>敵方防禦：</label>
+    <input type="number" id="defense" value="50">
+
+    <button onclick="calculateDamage()">計算</button>
+
+    <h2>計算結果：<span id="result">0</span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
